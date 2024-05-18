@@ -1,0 +1,132 @@
+.discover{
+    background: $bg-dark;
+}
+
+.discover__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover__subtitle{
+    width: 398px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140%;
+    color: #ffffff;
+}
+
+.discover__text{
+    width: 600px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    color: #ffffff;
+}
+
+.discover__title{
+    width: 521px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.discover__buttons{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover__block{
+    display: flex;
+    gap: 16px;
+}
+
+.discover__btns{
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    padding: 18px 25px;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        color: #0a0a0a;
+        background-color: #7ffa8a;
+    }
+}
+
+.discover__about{
+    margin-top: 64px;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.discover__content{
+    width: 360px;
+    height: 480px;
+    background-color: #5224b5;
+}
+
+.discover__ball{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 175%;
+    letter-spacing: 0.02em;
+    color: #fe8235;
+    display: flex;
+    align-items: center;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 20px;
+        height: 33px;
+        margin-right: 10px;
+        background-repeat: no-repeat;
+        background-image: url('../assets/diamond.svg');
+        background-position: left;
+    }
+}
+
+.discover__name{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        background-repeat: no-repeat;
+        background-image: url('../assets/man.svg');
+        background-position: left;
+    }
+}
+
+.discover__tekst{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 175%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}

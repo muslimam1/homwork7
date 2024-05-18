@@ -1,0 +1,36 @@
+.updates{
+    background-color: $bg-dark;
+    padding-bottom: 60px;
+}
+
+.updates__title{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 90px;
+}
+
+.updates__pin{
+    margin-top: 56px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.updates__input{
+    border: 1px solid #fe8235;
+    padding: 8px 10px;
+    width: 460px;
+    height: 45px;
+    color: #ffffff;
+    outline: none;
+    background-color: $bg-dark;
+}
+
+button{
+    @include btn();
+    width: 156px;
+    height: 45px;
+}

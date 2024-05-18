@@ -1,0 +1,37 @@
+.nexus{
+    background: $bg-dark;
+    padding-bottom: 150px;
+}
+
+.nexus__block{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.nexus__box{
+    padding: 43px 0;
+    width: 360px;
+    height: 264px;
+    background: #5224B5;
+    align-items: center;
+}
+
+.nexus__title{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.nexus__text{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+}
